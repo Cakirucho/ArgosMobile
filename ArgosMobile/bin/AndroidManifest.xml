@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pin.argosmobile"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".login.Login"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pin.argosmobile.seleccionar.FormularioMensaje"
+            android:label="@string/title_activity_formulario_mensaje" >
+        </activity>
+         <activity
+            android:name="com.pin.argosmobile.partida.CrearMensaje"
+            android:label="@string/title_activity_crear_mensaje" >
+        </activity>
+         <activity
+            android:name="com.pin.argosmobile.partida.DescripcionPartida"
+            android:label="@string/title_activity_descripcion_partida" >
+        </activity>
+         <activity
+            android:name="com.pin.argosmobile.partida.UnirsePartida"
+            android:label="@string/title_activity_unirse_partida" >
+        </activity>
+         <activity
+            android:name="com.pin.argosmobile.seleccionar.ListaEscenas"
+            android:label="@string/title_activity_lista_escenas" >
+        </activity>
+         <activity
+            android:name="com.pin.argosmobile.seleccionar.ListaMensajes"
+            android:label="@string/title_activity_lista_mensajes" >
+        </activity>
+         <activity
+            android:name="com.pin.argosmobile.seleccionar.SeleccionarPartida"
+            android:label="@string/title_activity_seleccionar_partida" >
+        </activity>
+         <activity
+            android:name="com.pin.argosmobile.seleccionar.TirarDado"
+            android:label="@string/title_activity_tirar_dado" >
+        </activity>
+         
+    </application>
+
+</manifest>
